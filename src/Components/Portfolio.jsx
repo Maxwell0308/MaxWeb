@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/Portfolio.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Cats bro cmon";
 
 /**
  * Project list
@@ -53,6 +53,12 @@ const projectList = [
     description:
       "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+  },
+  {
+    title: "GitHub Codespaces and github.dev",
+    description:
+      "A website to introduce the Github Student Developer Pack and its benefits especially to students.",
+    url: "https://education.github.com/pack",
   },
 ];
 
